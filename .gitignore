@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+# Ignore also Csv files
+*.csv
+# Zip files
+*.zip
 # Distribution / packaging
 .Python
 build/
@@ -47,7 +50,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
 
@@ -59,7 +61,6 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -76,6 +77,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.vscode
+
 
 # IPython
 profile_default/
@@ -123,3 +126,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+wind-turbine-scada-dataset.zip
+x.jpg
